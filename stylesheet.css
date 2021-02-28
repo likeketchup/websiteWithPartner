@@ -1,0 +1,38 @@
+ 
+ body {
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    line-height: 1.5;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  figure {
+    margin: 50px;
+  }
+  figcaption {
+    font: bold 20px system-ui, sans-serif;
+  }
+  body > div {
+    display: flex;
+  }
+
+.heroes ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.heroes {
+    display: inline-block;
+    margin: 10;
+}
+.heroes li{
+    margin:0 30px 30px 0;
+}
+
+.heroes a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 115%;
+    font-weight: bold;
+}
